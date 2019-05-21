@@ -132,3 +132,6 @@
 
 ## 2.7.2
 * Updated openweathermap dependency to v4.0.0
+
+## 2.7.3
+* Added uv-index to group of values persisted to history file via fakegato 
