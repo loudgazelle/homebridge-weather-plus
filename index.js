@@ -154,6 +154,7 @@ WeatherStationPlatform.prototype = {
 									temp: this.accessoriesList[i].currentConditionsService.getCharacteristic(Characteristic.CurrentTemperature).value,
 									pressure: this.accessoriesList[i].currentConditionsService.getCharacteristic(CustomCharacteristic.AirPressure).value,
 									humidity: this.accessoriesList[i].currentConditionsService.getCharacteristic(Characteristic.CurrentRelativeHumidity).value
+                                                                        uvidx: this.accessoriesList[i].currentConditionsService.getCharacteristic(CustomCharacteristic.UVIndex).value									
 								});
 							}
 							catch (error) {
